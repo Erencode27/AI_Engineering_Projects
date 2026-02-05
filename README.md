@@ -1,63 +1,5 @@
 # AI_Engineering_Projects
-
-This repository contains Jupyter Notebooks and resources for AI engineering projects. The README contains both Turkish and English explanations.
-
 ---
-
-# TR — Türkçe
-
-## Açıklama
-Bu depo, yapay zeka mühendisliği ve veri bilimi alanında geliştirilmiş Jupyter Notebook'lar ve ilgili dökümanları içerir. Notebook'ların çoğu Google Colab üzerinde oluşturulmuştur. Aşağıda depodaki ana dosyalar ve kısa açıklamaları verilmiştir.
-
-## Dosyalar- DataScienceEcosystem-checkpoint.ipynb — Veri bilimi ekosistemi ile ilgili örnekler / kontrol noktası not defteri.
-- FinalProject_AUSWeather(1).ipynb — Avustralya hava durumu verisi ile yapılmış final projesi (analiz, önişleme, modelleme).
-- Final_Project_Classification_and_Captioning- v1.ipynb — Görüntü sınıflandırma ve otomatik başlık (captioning) uygulaması.
-- ibm_ai_eng_3.ipynb — IBM AI Engineering kursuna ait çalışma notları / örnekler.
-- imb_ai_engineer_2.ipynb — IBM AI Engineer ile ilgili başka bir çalışma notu (isimlendirmede küçük fark olabilir).
-- Glossary.pdf — Terimler sözlüğü / kısa açıklamalar.
-- README.md — (bu dosya) depoya genel bakış ve kullanım talimatları.
-
-> Not: Eğer dosya isimlerinde farklılık veya yeni eklemeler varsa lütfen bildir; README'yi buna göre güncelleyeyim.
-
-## Gereksinimler- Python 3.8+
-- Jupyter / JupyterLab veya Google Colab
-- Gerekli Python paketleri notebook başlıklarında veya requirements.txt / environment.yml içinde belirtilmelidir.
-
-## Nasıl çalıştırılır
-1. Yerelde: sanal ortam oluşturun ve bağımlılıkları yükleyin (örneğin requirements.txt varsa).
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / macOS
-.venv\Scripts\activate    # Windows
-pip install -r requirements.txt
-jupyter lab
-```
-
-2. Google Colab: GitHub üzerindeki notebook dosyasını açıp "Open in Colab" seçeneğini kullanabilirsiniz veya Colab'da şu formatı kullanın:
-
-https://colab.research.google.com/github/Erencode27/AI_Engineering_Projects/blob/main/<NOTEBOOK_FILE>.ipynb
-
-(örn: https://colab.research.google.com/github/Erencode27/AI_Engineering_Projects/blob/main/FinalProject_AUSWeather(1).ipynb)
-
-## Veri ve Gizlilik- Büyük veri setleri repoda yer almıyor olabilir. Notebook içinde veri indirme / hazırlama adımları belirtilmişse onları takip edin.
-- Eğer hassas veri kullanıldıysa, anonimleştirme ve erişim yönergeleri notebook içinde açıklanmalıdır.
-
-## Katkıda Bulunma
-1. Depoyu fork'layın.
-2. Yeni bir branch oluşturun.
-3. Değişikliklerinizi ekleyin ve PR açın.
-
-Notebook katkıları için: çıktı hücrelerini temizleyin, açıklayıcı başlıklar ve kısa açıklamalar ekleyin.
-
-## Lisans
-Eğer bu proje için lisans belirtilmemişse lütfen uygun bir lisans (ör. MIT) ekleyin ve LICENSE dosyası oluşturun.
-
-## İletişim
-Herhangi bir soru ya da öneri için GitHub üzerinden Erencode27 ile iletişime geçin.
-
----
-
 # EN — English
 
 ## Description
@@ -107,8 +49,59 @@ https://colab.research.google.com/github/Erencode27/AI_Engineering_Projects/blob
 
 For notebooks: keep outputs cleared when possible, add descriptive headings and short explanations.
 
-## License
-If no license is present, consider adding a license such as MIT and include a LICENSE file.
 
 ## Contact
 For questions or suggestions, reach out via GitHub: Erencode27
+
+# TR — Türkçe
+
+## Açıklama
+Bu depo, yapay zeka mühendisliği ve veri bilimi alanında geliştirilmiş Jupyter Notebook'lar ve ilgili dökümanları içerir. Notebook'ların çoğu Google Colab üzerinde oluşturulmuştur. Aşağıda depodaki ana dosyalar ve kısa açıklamaları verilmiştir.
+
+## Dosyalar- DataScienceEcosystem-checkpoint.ipynb — Veri bilimi ekosistemi ile ilgili örnekler / kontrol noktası not defteri.
+- FinalProject_AUSWeather(1).ipynb — Avustralya hava durumu verisi ile yapılmış final projesi (analiz, önişleme, modelleme).
+- Final_Project_Classification_and_Captioning- v1.ipynb — Görüntü sınıflandırma ve otomatik başlık (captioning) uygulaması.
+- ibm_ai_eng_3.ipynb — IBM AI Engineering kursuna ait çalışma notları / örnekler.
+- imb_ai_engineer_2.ipynb — IBM AI Engineer ile ilgili başka bir çalışma notu (isimlendirmede küçük fark olabilir).
+- Glossary.pdf — Terimler sözlüğü / kısa açıklamalar.
+- README.md — (bu dosya) depoya genel bakış ve kullanım talimatları.
+
+> Not: Eğer dosya isimlerinde farklılık veya yeni eklemeler varsa lütfen bildir; README'yi buna göre güncelleyeyim.
+
+## Gereksinimler- Python 3.8+
+- Jupyter / JupyterLab veya Google Colab
+- Gerekli Python paketleri notebook başlıklarında veya requirements.txt / environment.yml içinde belirtilmelidir.
+
+## Nasıl çalıştırılır
+1. Yerelde: sanal ortam oluşturun ve bağımlılıkları yükleyin (örneğin requirements.txt varsa).
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux / macOS
+.venv\Scripts\activate    # Windows
+pip install -r requirements.txt
+jupyter lab
+```
+
+2. Google Colab: GitHub üzerindeki notebook dosyasını açıp "Open in Colab" seçeneğini kullanabilirsiniz veya Colab'da şu formatı kullanın:
+
+https://colab.research.google.com/github/Erencode27/AI_Engineering_Projects/blob/main/<NOTEBOOK_FILE>.ipynb
+
+(örn: https://colab.research.google.com/github/Erencode27/AI_Engineering_Projects/blob/main/FinalProject_AUSWeather(1).ipynb)
+
+## Veri ve Gizlilik- Büyük veri setleri repoda yer almıyor olabilir. Notebook içinde veri indirme / hazırlama adımları belirtilmişse onları takip edin.
+- Eğer hassas veri kullanıldıysa, anonimleştirme ve erişim yönergeleri notebook içinde açıklanmalıdır.
+
+## Katkıda Bulunma
+1. Depoyu fork'layın.
+2. Yeni bir branch oluşturun.
+3. Değişikliklerinizi ekleyin ve PR açın.
+
+Notebook katkıları için: çıktı hücrelerini temizleyin, açıklayıcı başlıklar ve kısa açıklamalar ekleyin.
+
+## İletişim
+Herhangi bir soru ya da öneri için GitHub üzerinden Erencode27 ile iletişime geçin.
+
+---
+
+
